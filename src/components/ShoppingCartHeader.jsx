@@ -8,7 +8,7 @@ export default function ShoppingCartHeader() {
     <div>
         
         <BackArrowButton />
-        <h1>ShoppingCartHeader</h1>
+        <h3>ShoppingCartHeader</h3>
         <ShoppingBag />
 
     </div>
