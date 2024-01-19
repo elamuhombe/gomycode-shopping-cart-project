@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { FiShoppingBag } from "react-icons/fi";
 
 export default function ShoppingBag() {
   return (
-    <div>ShoppingBag</div>
+    <div>
+        <FiShoppingBag />
+    </div>
   )
 }
