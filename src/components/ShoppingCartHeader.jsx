@@ -1,6 +1,8 @@
 import React from 'react'
-import BackArrowButton from './BackArrowButton'
-import ShoppingBag from './ShoppingBag'
+import BackArrowButton from './BackArrowButton';
+import ShoppingBag from './ShoppingBag';
+import '../styles.css';
+
 
 
 export default function ShoppingCartHeader() {
@@ -8,8 +10,9 @@ export default function ShoppingCartHeader() {
     <div>
         
         <BackArrowButton />
-        <h3>ShoppingCartHeader</h3>
+        <h3>Shopping Cart</h3>
         <ShoppingBag />
+        <div className="circle"></div>
 
     </div>
 
