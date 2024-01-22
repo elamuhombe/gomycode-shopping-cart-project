@@ -1,0 +1,36 @@
+/* Styling for shopping cart header container */
+
+.header-container{
+    width: 100%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    align-items:center;
+}
+/* Styling for back arrow button */
+.back-arrow{
+    width: 32px;
+    height: 32px;
+}
+
+/* Styling for the Shopping cart header */
+h3{
+    font-size: 24px;
+    font-family: 'Raleway';
+}
+
+/* Styling for number of items in the shopping cart bag */
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background: #FF0000;
+}
+/* Styling for the shopping cart bag */
+.bag{
+    width: 32px;
+    height: 32px;
+}
