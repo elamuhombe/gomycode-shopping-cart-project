@@ -4,14 +4,17 @@ import IncrementButton from './IncrementButton';
 import DecrementButton from './DecrementButton';
 
 
-export default function Product() {
+export default function Product({item}) {
+  const {name,picture,price,qty} = item
   return (
-    <div>Product
-      <h3>Image</h3>
+    <div style={{display:"flex"}}>
+      <img src={picture} alt={name} width={'100px'} />
       <ProductDetails />
+     <div style={{display:"flex",flexDirection:"column"}}> 
       <IncrementButton />
       <DecrementButton />
-      <h3>Price</h3>
+      </div>
+      <h3>${price * qty}</h3>
     </div>
   )
 }
