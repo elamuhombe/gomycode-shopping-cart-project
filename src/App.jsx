@@ -7,7 +7,7 @@ import { ShoppingCartHeader } from "./components";
 function App() {
   const [items, setItems] = useState([
     {
-      picture: "",
+      picture: "/images/nike.jpg",
       name: "Nike",
       category: "Superstar",
       size: "8.5",
@@ -15,7 +15,7 @@ function App() {
       price: 239.55,
     },
     {
-      picture: "",
+      picture: "/images/t-shirt.jpg",
       name: "H&M",
       category: "t-shirt",
       size: "S",
@@ -23,7 +23,7 @@ function App() {
       price: 14.99,
     },
     {
-      picture: "",
+      picture: "/images/bag.jpg",
       name: "Gucci",
       category: "CG Marmont",
       size: null,
