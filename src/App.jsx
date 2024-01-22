@@ -39,7 +39,7 @@ function App() {
         <ShoppingCartHeader items={items} />
 
         {/* ShoppingCartBody */}
-        <ShoppingCartBody />
+        <ShoppingCartBody items={items} />
       </div>
     </>
   );
