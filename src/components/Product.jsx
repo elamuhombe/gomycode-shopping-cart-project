@@ -1,7 +1,7 @@
 import React from 'react'
-import ProductDetails from './ProductDetails'
-import IncrementButton from './IncrementButton'
-import DecrementButton from './DecrementButton'
+import ProductDetails from './ProductDetails';
+import IncrementButton from './IncrementButton';
+import DecrementButton from './DecrementButton';
 
 
 export default function Product() {
