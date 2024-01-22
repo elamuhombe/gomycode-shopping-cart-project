@@ -1,3 +1,7 @@
+/* body styling */
+body{
+    font-family: 'Raleway', sans-serif;
+}
 /* Styling for shopping cart header container */
 
 .header-container{
@@ -18,7 +22,7 @@
 /* Styling for the Shopping cart header */
 h3{
     font-size: 24px;
-    font-family: 'Raleway';
+    font-weight: 600;
 }
 
 /* Styling for number of items in the shopping cart bag */
@@ -28,6 +32,16 @@ h3{
     border-radius: 50%;
     flex-shrink: 0;
     background: #FF0000;
+    position: absolute;
+    margin-top: -9px;
+    margin-left: -10px;
+    color: #fff;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+  
+
 }
 /* Styling for the shopping cart bag */
 .bag{
