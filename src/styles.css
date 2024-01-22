@@ -1,6 +1,17 @@
+/* Styling for shopping cart header container */
+
+.header-container{
+    width: 100%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    align-items:center;
+}
 /* Styling for back arrow button */
 .back-arrow{
-    width: 500px;
+    width: 32px;
     height: 32px;
 }
 
