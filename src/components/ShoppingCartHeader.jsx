@@ -5,14 +5,14 @@ import '../styles.css';
 
 
 
-export default function ShoppingCartHeader() {
+export default function ShoppingCartHeader({items}) {
   return (
-    <div>
+    <div className="header-container">
         
         <BackArrowButton />
         <h3>Shopping Cart</h3>
-        <ShoppingBag />
-        <div className="circle"></div>
+        <ShoppingBag items={items} />
+        
 
     </div>
 
