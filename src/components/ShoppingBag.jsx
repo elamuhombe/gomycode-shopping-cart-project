@@ -2,12 +2,15 @@ import React from 'react';
 import { FiShoppingBag } from "react-icons/fi";
 import "../styles.css";
 
-export default function ShoppingBag({items}) {
+// ShoppingBag component receives items as a prop
+export default function ShoppingBag({ items }) {
   return (
     <div className="bag-container">
-      
-        <div className="circle">{items.length}</div>
-        <FiShoppingBag className="bag" />
+      {/* Circular badge displaying the number of items */}
+      <div className="circle">{items.length}</div>
+
+      {/* FiShoppingBag icon */}
+      <FiShoppingBag className="bag" />
     </div>
-  )
+  );
 }
