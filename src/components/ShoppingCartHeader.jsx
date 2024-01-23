@@ -10,7 +10,7 @@ export default function ShoppingCartHeader({items}) {
     <div className="shopping-header-container">
         
         <BackArrowButton />
-        <h2 class="shopping-cart-title">Shopping Cart</h2>
+        <h2 className="shopping-cart-title">Shopping Cart</h2>
         <ShoppingBag items={items} />
         
 
