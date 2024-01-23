@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { ShoppingCartBody } from "./components";
-
-import "./App.css";
 import { ShoppingCartHeader } from "./components";
+import { ShoppingCartBody } from "./components";
+import "./App.css";
+
 
 function App() {
   const [items, setItems] = useState([
