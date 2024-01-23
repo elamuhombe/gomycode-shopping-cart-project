@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Shipping() {
   return (
-    <div>Shipping</div>
+    <div>
+        <img src='/.group17.png' className='shop' alt='shopping' />
+    </div>
   )
 }

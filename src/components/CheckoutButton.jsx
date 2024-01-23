@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function CheckoutButton() {
   return (
-    <div>CheckoutButton</div>
+    <div className='checkout-button'>
+        <button className='black-button'>Checkout</button>
+    </div>
   )
 }
