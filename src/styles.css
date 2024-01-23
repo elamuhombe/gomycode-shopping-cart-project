@@ -4,7 +4,7 @@ body{
 }
 /* Styling for shopping cart header container */
 
-.header-container{
+.shopping-header-container{
     width: 100%;
     min-width: 500px;
     display: flex;
@@ -20,13 +20,15 @@ body{
 }
 
 /* Styling for the Shopping cart header */
-h3{
+.shopping-header-container .shopping-cart-title{
     font-size: 24px;
-    font-weight: 600;
+    font-weight: bolder;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Styling for number of items in the shopping cart bag */
-.circle{
+.bag-container .circle{
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -44,7 +46,7 @@ h3{
 
 }
 /* Styling for the shopping cart bag */
-.bag{
+.bag-container .bag{
     width: 32px;
     height: 32px;
 }
