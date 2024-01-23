@@ -7,10 +7,10 @@ import '../styles.css';
 
 export default function ShoppingCartHeader({items}) {
   return (
-    <div className="header-container">
+    <div className="shopping-header-container">
         
         <BackArrowButton />
-        <h3>Shopping Cart</h3>
+        <h2 class="shopping-cart-title">Shopping Cart</h2>
         <ShoppingBag items={items} />
         
 
