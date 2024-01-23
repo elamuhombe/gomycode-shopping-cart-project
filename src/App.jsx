@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ShoppingCartHeader } from "./components";
 import { ShoppingCartBody } from "./components";
 import "./App.css";
@@ -31,6 +31,7 @@ function App() {
       price: 1850,
     },
   ]);
+  useEffect(()=>{},[items]) 
 
   return (
     <>
@@ -39,7 +40,7 @@ function App() {
         <ShoppingCartHeader items={items} />
 
         {/* ShoppingCartBody */}
-        <ShoppingCartBody items={items} />
+        <ShoppingCartBody items={items} setItems={setItems} />
       </div>
     </>
   );

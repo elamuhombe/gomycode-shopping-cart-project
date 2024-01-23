@@ -2,13 +2,10 @@ import React from 'react'
 import { GoChevronUp } from "react-icons/go";
 
 
-export default function IncrementButton({ onClick }) {
+export default function IncrementButton({ handleItemChange, index }) {
   const handleButtonClick = () => {
     // Call the onClick function passed as a prop
-    if (onClick) {
-      onClick();
-    }
-    
+   handleItemChange(index, '+')
   };
 
   return (

@@ -1,13 +1,10 @@
 import React from 'react';
 import { GoChevronDown } from 'react-icons/go';
 
-export default function DecrementButton({ onClick }) {
+export default function DecrementButton({ handleItemChange, index }) {
   const handleButtonClick = () => {
     // Call the onClick function passed as a prop
-    if (onClick) {
-      onClick();
-    }
-    
+    handleItemChange(index, '-')
   };
 
   return (
