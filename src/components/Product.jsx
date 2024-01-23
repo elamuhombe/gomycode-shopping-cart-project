@@ -8,7 +8,7 @@ export default function Product({item}) {
   const {name,picture,price,qty} = item
   return (
     <div style={{display:"flex"}}>
-      <img src={picture} alt={name} width={'100px'} />
+      <img src={picture} alt={name} width={'100px'} height={'100px'} />
       <ProductDetails />
      <div style={{display:"flex",flexDirection:"column"}}> 
       <IncrementButton />
