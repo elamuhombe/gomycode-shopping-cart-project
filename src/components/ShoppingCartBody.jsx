@@ -14,13 +14,13 @@ export default function ShoppingCartBody({items,setItems})  {
     console.log (updatedItems)
   } 
   return (
-    <div>
+    <div className='shopping-cart-body'>
         <h3>{items.length} items</h3>
-        <div>
+        <table border= '2px'>
           {
             items.map((item,index) => <Product key = {index} item = {item} handleItemChange = {handleItemChange} index={index} />)
           }
-        </div>
+        </table>
         
         
         

@@ -1,3 +1,11 @@
+/*css reset*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
 /* body styling */
 body{
     font-family: 'Raleway', sans-serif;
@@ -49,4 +57,49 @@ body{
 .bag-container .bag{
     width: 32px;
     height: 32px;
+}
+/*shopping-cart-body */
+.shopping-cart-body{
+   border: 2px black solid;
+   width: 100%;
+   
+
+
+}
+
+.shopping-cart-body table{
+    width: 100%;
+}
+/*product body styles*/
+.product-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.body-button-container{
+    display: flex;
+    flex-direction: column;
+    
+
+    /* margin-left: 50px; */
+}
+
+.qty{
+    /* margin-left: 50px; */
+
+}
+
+.product-details{
+    /* margin-left: 20px; */
+}
+
+.increment-button{
+
+}
+
+.decrement-button{
+
 }

@@ -1,5 +1,7 @@
 import React from 'react'
-import { GoChevronUp } from "react-icons/go";
+// import { GoChevronUp } from "react-icons/go";
+import { IoMdArrowDropup } from "react-icons/io";
+
 
 
 export default function IncrementButton({ handleItemChange, index }) {
@@ -9,8 +11,9 @@ export default function IncrementButton({ handleItemChange, index }) {
   };
 
   return (
-    <button className="increment" onClick={handleButtonClick}>
-      <GoChevronUp />
-    </button>
+    <span className="increment-button" onClick={handleButtonClick}>
+      {/* <GoChevronUp /> */}
+       <IoMdArrowDropup />
+    </span>
   );
 }
