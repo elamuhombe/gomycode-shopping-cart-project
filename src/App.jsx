@@ -1,12 +1,14 @@
-// Importing necessary dependencies and components
 import { useState } from "react";
+import "./App.css";
+import Shipping from "./components/Shipping";
+import Totals from "./components/Totals";
+import CheckoutButton from "./components/CheckoutButton";
+
 import { ShoppingCartHeader } from "./components";
 import { ShoppingCartBody } from "./components";
-import "./App.css";
 
 // Main functional component named App
 function App() {
-  
   // State to manage shopping cart items
   const [items, setItems] = useState([
     {
@@ -50,12 +52,14 @@ function App() {
       {showAppComponents && (
         <div>
           {/* Conditionally render components based on showAppComponents */}
-
           {/* Shopping Cart Header */}
           <ShoppingCartHeader items={items} handleClick={handleClick} />
 
           {/* ShoppingCartBody */}
           <ShoppingCartBody items={items} />
+          <Shipping />
+          <Totals />
+          <CheckoutButton />
         </div>
       )}
     </>
