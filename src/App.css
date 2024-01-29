@@ -4,4 +4,34 @@
   /* padding: 2rem; */
   text-align: center;
 }
+<<<<<<< HEAD
 
+=======
+.checkout-button {
+  align-items: center;
+}
+.black-button {
+  background-color: #393939;
+  padding: 16px 72px;
+  width: 234px;
+  height: 52px;
+  top: 765px;
+  left: 76px;
+  border-radius: 48px;
+  gap: 10px;
+}
+.totals-section {
+  width: 390px;
+  height: 230px;
+  top: 614px;
+  color: #000000;
+  
+}
+.shop {
+width: 342px;
+height: 28px;
+top: 570px;
+left: 24px;
+border-radius: 48px;
+}
+>>>>>>> main
