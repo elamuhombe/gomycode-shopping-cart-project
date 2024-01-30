@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-export default function Totals({ subtotal, shipping, total}) {
+export default function Totals({ total, subtotal, shipping}) {
+
+
   return (
     <div className='totals-section'>
         <div>

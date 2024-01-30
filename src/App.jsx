@@ -1,11 +1,8 @@
 import { useState } from "react";
 import "./App.css";
-import Shipping from "./components/Shipping";
-import Totals from "./components/Totals";
-import CheckoutButton from "./components/CheckoutButton";
 
-import { ShoppingCartHeader } from "./components";
-import { ShoppingCartBody } from "./components";
+import { ShoppingCartFooter, ShoppingCartHeader, ShoppingCartBody } from "./components";
+
 
 // Main functional component named App
 function App() {
@@ -57,9 +54,9 @@ function App() {
 
           {/* ShoppingCartBody */}
           <ShoppingCartBody items={items} />
-          <Shipping />
-          <Totals />
-          <CheckoutButton />
+          {/* Shopping cart footer below */}
+          <ShoppingCartFooter items={items}/>
+          
         </div>
       )}
     </>
