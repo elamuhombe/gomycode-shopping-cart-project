@@ -7,15 +7,15 @@ export default function Totals({ total, subtotal, shipping}) {
     <div className='totals-section'>
         <div>
             <span>Subtotal:</span>
-            <span>${subtotal? subtotal.toFixed(2) : '0.00'}</span>
+            <span className='sub-t'>${subtotal? subtotal.toFixed(2) : '0.00'}</span>
         </div>
         <div>
             <span>Shipping:</span>
-            <span>${shipping? shipping.toFixed(2) : '0.00'}</span>
+            <span className='shipp'>${shipping? shipping.toFixed(2) : '0.00'}</span>
         </div>
         <div>
             <span>Total:</span>
-            <span>${total? total.toFixed(2) : '0.00'}</span>
+            <span className='tot'>${total? total.toFixed(2) : '0.00'}</span>
         </div>
     </div>
   );
